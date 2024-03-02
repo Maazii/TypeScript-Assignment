@@ -1,0 +1,1 @@
+Successfully added TypeScript, Node.js, and VS Code on my computer.

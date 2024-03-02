@@ -1,0 +1,14 @@
+var favLocations = ["Makkah", "Madina", "Jerusalem", "Karachi", "Islamabad"];
+console.log(favLocations);
+var alphabeticalOrder = favLocations.slice().sort();
+console.log(favLocations);
+var reversealphabeticalOrder = favLocations.slice().sort(function (x, y) { return y.localeCompare(x); });
+console.log(favLocations);
+favLocations.reverse();
+console.log(favLocations);
+favLocations.reverse();
+console.log(favLocations);
+favLocations.sort();
+console.log(favLocations);
+favLocations.sort(function (x, y) { return y.localeCompare(x); });
+console.log(favLocations);

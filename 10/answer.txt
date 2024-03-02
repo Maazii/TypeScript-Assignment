@@ -1,0 +1,1 @@
+Added a comment to the code in exercise number 3 and 4.

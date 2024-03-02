@@ -1,0 +1,14 @@
+let favLocations=["Makkah", "Madina", "Jerusalem", "Karachi", "Islamabad"];
+console.log(favLocations);
+let alphabeticalOrder = favLocations.slice().sort();
+console.log(favLocations);
+let reversealphabeticalOrder: string[] = favLocations.slice().sort((x, y) => y.localeCompare(x));
+console.log(favLocations);
+favLocations.reverse();
+console.log(favLocations);
+favLocations.reverse();
+console.log(favLocations);
+favLocations.sort();
+console.log(favLocations);
+favLocations.sort((x, y) => y.localeCompare(x));
+console.log(favLocations);
